@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{% block title %}
+	Index
+{% endblock %}
+{% block style %}
+	<style type="text/css">
+		body {
+			background: #232526;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(to bottom, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+		}
+	</style>
+{% endblock %}
+{% block content %}
+		<div class = "jumbotron cr">
+			<h1>RANK BY CRICKET</h1>
+		</div>
+	<div class = "test">
+		<h1><a href="{% url 'cricket:test_view'%}">TEST</a></h1>
+	</div>
+	<div class = "odi">
+		<h1><a href="{% url 'cricket:odi_view'%}">ODI</a></h1>
+	</div>
+	<div class="tt">
+		<h1><a href="{% url 'cricket:tt_view'%}">T20</a></h1>
+	</div>
+{% endblock %}

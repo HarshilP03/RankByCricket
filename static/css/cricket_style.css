@@ -1,0 +1,113 @@
+		.navbar {
+			margin-bottom: 0;
+			border-radius: 0;
+			width: 100%;
+			margin-right: 0;
+		}
+		.jumbotron {
+			height: 400px;
+			padding-left: 25px;
+			color: white;
+			font-family: 'Josefin Sans', sans-serif;
+			text-shadow: 3px 2px red;
+			margin-bottom: 0;
+			width: 100%;
+			margin-right: 0;
+		}
+		.cr {
+			background: url('https://images.unsplash.com/photo-1531415074968-036ba1b575da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=747&q=80');
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			opacity: 0.8;
+		}
+		.test {
+			border:  4px solid red;
+			background: #0f0c29;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			border-radius: 50%;
+			display: inline-block;
+			height: 180px;
+			width: 180px;
+			margin-top: 20px;
+			margin-left: 42%;
+			margin-right: 45%;
+		}
+		.test h1 {
+			text-align: center;
+			margin-bottom: 0;
+			margin-top: 60px;
+			color: white;
+		}
+		.test a {
+			color: white;
+		}
+		h1 a:hover {
+			font-size: 120%;
+		}
+		.odi {
+			border:  4px solid red;
+			background: #0f0c29;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			border-radius: 50%;
+			display: inline-block;
+			height: 180px;
+			width: 180px;
+			margin-top: 20px;
+			margin-left: 42%;
+			margin-right: 45%;
+		}
+		.odi h1 {
+			text-align: center;
+			margin-bottom: 0;
+			margin-top: 60px;
+			color: white;
+		}
+		.odi a {
+			color: white;
+		}
+		.tt {
+			border:  4px solid red;
+			background: #0f0c29;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			border-radius: 50%;
+			display: inline-block;
+			height: 180px;
+			width: 180px;
+			margin-top: 20px;
+			margin-left: 42%;
+			margin-right: 45%;
+		}
+		.tt h1 {
+			text-align: center;
+			margin-bottom: 0;
+			margin-top: 60px;
+			color: white;
+		}
+		.tt a {
+			color: white;
+		}
+		table {
+			border-collapse: collapse;
+			width: 100%;
+			height: 100%;
+		}
+
+		th, td {
+			text-align: left;
+			padding: 8px;
+		}
+
+		tr:nth-child(even){background-color: #f2f2f2}
+
+		th {
+			background-color: #4CAF50;
+			color: white;
+		}
+
+		body {
+			padding: 0;
+			margin: 0;
+		}
